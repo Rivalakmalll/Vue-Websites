@@ -32,7 +32,8 @@ const routes = [
     name: 'articleDetail',
     component: () => import('../views/ArticleView.vue'),
     meta: { title: 'Blog' }
-  }
+  },
+  { path: '*', redirect: '/' }
 ]
 
 const router = createRouter({
