@@ -189,7 +189,7 @@ export default {
                 </div>
               </div>
             </div>
-          </div>s
+          </div>
         </div>
         <div v-show="activeTab === 2">
           <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
